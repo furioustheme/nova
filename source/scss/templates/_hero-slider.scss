@@ -1,0 +1,74 @@
+.hero-slider {
+    background: $primary-color;
+    position: relative;
+    @include desktop {
+        padding: 100px 0;
+    }
+    &-item {
+        &:focus {
+            outline: 0;
+        }
+    }
+    &-content {
+        margin-left: 10%;
+        @include desktop {
+            margin-left: 0;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 40px;
+            @include mobile {
+                margin-bottom: 10px;
+            }
+        }
+        p {
+            font-size: 25px;
+            margin-bottom: 40px;
+            font-weight: 300;
+            line-height: 35px;
+            @include mobile {
+                font-size: 15px;
+                line-height: 25px;
+                margin: 0 20px 15px;
+            }
+        }
+    }
+    img {
+        margin-top: 50px;
+        @include desktop {
+            height: 400px;
+            width: auto;
+            margin: auto;
+        }
+    }
+}
+.slick-dots {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 0;
+    li {
+        float: left;
+        margin: 0 5px;
+        button {
+            height: 6px;
+            width: 6px;
+            padding: 0;
+            display: inline-block;
+            border-radius: 50%;
+            border: 0;
+            background: #d0d0d0;
+            color: transparent;
+            overflow: hidden;
+            &:focus {
+                outline: 0;
+            }
+        }
+        &.slick-active {
+            button {
+                background: $black;
+            }
+        }
+    }
+}

@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nova</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- magnific popup -->
+  <link rel="stylesheet" href="plugins/Magnific-Popup-master/magnific-popup.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  
+
+<header class="navbar" style="opacity: 1;">
+    <!-- navbar-sticky -->
+    <div class="navigation" style="margin-top: 0px;">
+        <!-- Site Logo -->
+        <a href="index.html" class="site-logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+        <!-- site-logo.visible-desktop -->
+        <!-- Toolbar -->
+        <div class="toolbar">
+            <div class="inner">
+                <a href="#menu" class="toolbar-toggle">
+                    <i class="ti-menu"></i>
+                </a>
+                <a href="#account" class="toolbar-toggle">
+                    <i class="ti-user"></i>
+                </a>
+                <a href="#cart" class="toolbar-toggle">
+                    <i class="ti-bag"></i>
+                </a>
+                <a href="#search" class="toolbar-toggle">
+                    <i class="ti-search"></i>
+                </a>
+            </div>
+        </div>
+        <!-- .toolbar -->
+
+        <!-- Toolbar Dropdown -->
+        <div class="toolbar-dropdown">
+            <!-- Menu -->
+            <div class="toolbar-section" id="menu">
+                <div class="inner">
+                    <div class="menu-items">
+                        <ul class="nav-menu">
+                            <li class="first current">
+                                <a href="/">Home</a>
+                            </li>
+                            <li>
+                                <a href="/">Categories</a>
+                            </li>
+                            <li>
+                                <a href="/">About Us</a>
+                            </li>
+                            <li>
+                                <a href="/">News</a>
+                            </li>
+                            <li>
+                                <a href="/">Contact Us</a>
+                            </li>
+                            <li class="last ">
+                                <a href="/newsletter">Newsletter</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- .inner -->
+            </div>
+            <!-- .toolbar-section#menu -->
+            <div class="toolbar-section" id="account">
+                <div class="inner">
+                    <div class="login-panel">
+                        <h3>CUSTOMER LOGIN</h3>
+                        <form action="" method="">
+                            <input type="text" name="username" placeholder="Username">
+                            <input type="password" name="password" placeholder="Password">
+                            <a href="#" id="forget-pass">Forgot your password?</a>
+                            <div class="checkbox">
+                                <label class="check">
+                                    <input id="" type="checkbox" value="" />
+                                    <div class="box"></div>
+                                </label>
+                                <span>Remember Me</span>
+                                <button class="btn-submit" type="submit">Login</button>
+                            </div>
+                        </form>
+                        <p>Don’t have an account?
+                            <a href="">Signup</a> here</p>
+                    </div>
+                </div>
+            </div>
+            <!-- .toolbar-section#login -->
+            <!-- Cart -->
+            <div class="toolbar-section cart" id="cart">
+                <div class="inner">
+                    <!-- <div class="empty-page-content text-center">
+                            <h1>Shopping Cart</h1>
+                            <p class="cart-empty-message mb-5">Your cart is currently empty.</p>
+                            <a href="/" class="btn btn-primary">Go To Shop</a>
+                        </div> -->
+                    <ul class="cart-list">
+                        <li class="cart-item">
+                            <div class="cart-item-image">
+                                <img class="img-fluid" src="images/cart/item-1.jpg" alt="product-image">
+                            </div>
+                            <div class="cart-item-details">
+                                <h6>D9 White wooden chair</h6>
+                                <p>Unit Price:
+                                    <span>$189</span>
+                                </p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="ti-minus"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#">1</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="ti-plus"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cart-item-price">$289</div>
+                            <div class="cart-item-cancel">
+                                <a href="#">
+                                    <i class="ti-close"></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="cart-item">
+                            <div class="cart-item-image">
+                                <img class="img-fluid" src="images/cart/item-2.jpg" alt="product-image">
+                            </div>
+                            <div class="cart-item-details">
+                                <h6>D8 Green wooden chair</h6>
+                                <p>Unit Price:
+                                    <span>$189</span>
+                                </p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="ti-minus"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#">1</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="ti-plus"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cart-item-price">$192</div>
+                            <div class="cart-item-cancel">
+                                <a href="#">
+                                    <i class="ti-close"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-primary mr-3">view cart</a>
+                    <a href="#" class="btn btn-secondary">checkout</a>
+                </div>
+                <!-- .inner -->
+            </div>
+            <!-- .toolbar-section#account -->
+            <div class="toolbar-section search" id="search">
+                <div class="inner">
+                    <div class="search-panel">
+                        <form action="/search" method="get" class="row" role="search">
+                            <div class="col-lg-9 col-sm-9">
+                                <input class="search-box" type="search" name="q" placeholder="Search our store" aria-label="Search our store">
+                            </div>
+                            <div class="col-lg-3 col-sm-3">
+                                <button class="btn-submit" type="submit" value="send"> search </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- .shopping-cart -->
+            </div>
+            <!-- .toolbar-section#cart -->
+            <!-- Cart -->
+        </div>
+        <!-- .toolbar-dropdown -->
+    </div>
+</header>
+
+<section class="hero-slider">
+    <div class="hero-slider-item">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 align-self-center order-2 order-lg-1">
+                    <div class="hero-slider-content">
+                        <h1>D9
+                            <span class="red">Red</span>
+                            <br>Classic chair</h1>
+                        <p>Lorem ipsum dolar sit amet simply dummy text for web and print media.</p>
+                        <a href="#" class="btn btn-primary">Learn more <i class="ti-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <img class="img-fluid" src="images/banner/banner-1.png" alt="banner-image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-slider-item">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 align-self-center order-2 order-lg-1">
+                    <div class="hero-slider-content">
+                        <h1>D9
+                            <span class="red">Red</span>
+                            <br>Classic chair</h1>
+                        <p>Lorem ipsum dolar sit amet simply dummy text for web and print media.</p>
+                        <a href="#" class="btn btn-primary">Learn more <i class="ti-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <img class="img-fluid" src="images/banner/banner-1.png" alt="banner-image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-slider-item">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 align-self-center order-2 order-lg-1">
+                    <div class="hero-slider-content">
+                        <h1>D9
+                            <span class="red">Red</span>
+                            <br>Classic chair</h1>
+                        <p>Lorem ipsum dolar sit amet simply dummy text for web and print media.</p>
+                        <a href="#" class="btn btn-primary">Learn more <i class="ti-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <img class="img-fluid" src="images/banner/banner-1.png" alt="banner-image">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="collection section pb-0">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-title">collections</h2>
+                    <p class="section-title-content">Lorem ipsum dolar sit amet simply dummy text for
+                        <br> web and print media.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="collection-item">
+                        <img class="img-fluid w-100" src="images/collection/item-1.jpg" alt="item-image">
+                        <div class="collection-item-overlay">
+                            <div class="collection-item-content">
+                                <a href="#">
+                                    <h3>D9 Chairs</h3>
+                                </a>
+                                <h6>(22 Items)</h6>
+                            </div>
+                        </div>
+                        <div class="collection-item-title">
+                            <a href="#">
+                                <h3>D9 Chairs</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="collection-item">
+                        <img class="img-fluid w-100" src="images/collection/item-2.jpg" alt="item-image">
+                        <div class="collection-item-overlay">
+                            <div class="collection-item-content">
+                                <a href="#">
+                                    <h3>F3 Red Chairs</h3>
+                                </a>
+                                <h6>(25 Items)</h6>
+                            </div>
+                        </div>
+                        <div class="collection-item-title">
+                            <a href="#">
+                                <h3>F3 Red Chairs</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="collection-item">
+                        <img class="img-fluid w-100" src="images/collection/item-3.jpg" alt="item-image">
+                        <div class="collection-item-overlay">
+                            <div class="collection-item-content">
+                                <a href="#">
+                                    <h3>U1 Chairs</h3>
+                                </a>
+                                <h6>(28 Items)</h6>
+                            </div>
+                        </div>
+                        <div class="collection-item-title">
+                            <a href="#">
+                                <h3>U1 Chairs</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="product section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="product-menu text-center">
+                        <ul class="controls list-inline">
+                            <!-- filter item list -->
+                            <li class="list-inline-item control active" data-filter="all">new arrivals</li>
+                            <li class="list-inline-item control" data-filter=".top-rated">top rated</li>
+                            <li class="list-inline-item control" data-filter=".on-sale">on sale</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center" data-ref="mixitup-container">
+                <div class="col-lg-3 col-md-4 col-sm-6 on-sale" data-ref="mixitup-target">
+                    <div class="product-item">
+                        <!-- filter image -->
+                        <img class="img-fluid w-100" src="images/products/product-1.jpg" alt="product-img">
+                        <div class="product-overlay">
+                            <div class="product-info">
+                                <!-- filter image content -->
+                                <h4 class="product-name">D9 Blue Chair</h4>
+                                <h4 class="new-price">$125</h4>
+                                <s class="old-price">$150</s>
+                            </div>
+                        </div>
+                        <div class="product-info-mobile">
+                            <h5 class="product-name">D9 Blue Chair</h5>
+                            <div class="product-price">
+                                <p>$125</p>
+                                <s>$150</s>
+                            </div>
+                        </div>
+                        <div class="tag on-sale-tag">on sale</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-ref="mixitup-target">
+                    <div class="product-item">
+                        <!-- filter image -->
+                        <img class="img-fluid w-100" src="images/products/product-2.jpg" alt="product-img">
+                        <div class="product-overlay">
+                            <div class="product-info">
+                                <!-- filter image content -->
+                                <h4 class="product-name">D9 Blue Chair</h4>
+                                <h4 class="new-price">$125</h4>
+                                <s class="old-price">$150</s>
+                            </div>
+                        </div>
+                        <div class="product-info-mobile">
+                            <h5 class="product-name">D9 Blue Chair</h5>
+                            <div class="product-price">
+                                <p>$125</p>
+                                <s>$150</s>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 top-rated" data-ref="mixitup-target">
+                    <div class="product-item">
+                        <!-- filter image -->
+                        <img class="img-fluid w-100" src="images/products/product-3.jpg" alt="product-img">
+                        <div class="product-overlay">
+                            <div class="product-info">
+                                <!-- filter image content -->
+                                <h4 class="product-name">D9 Blue Chair</h4>
+                                <h4 class="new-price">$125</h4>
+                                <s class="old-price">$150</s>
+                            </div>
+                        </div>
+                        <div class="product-info-mobile">
+                            <h5 class="product-name">D9 Blue Chair</h5>
+                            <div class="product-price">
+                                <p>$125</p>
+                                <s>$150</s>
+                            </div>
+                        </div>
+                        <div class="tag discount-tag">-30%</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-ref="mixitup-target">
+                    <div class="product-item">
+                        <!-- filter image -->
+                        <img class="img-fluid w-100" src="images/products/product-4.jpg" alt="product-img">
+                        <div class="product-overlay">
+                            <div class="product-info">
+                                <!-- filter image content -->
+                                <h4 class="product-name">D9 Blue Chair</h4>
+                                <h4 class="new-price">$125</h4>
+                                <s class="old-price">$150</s>
+                            </div>
+                        </div>
+                        <div class="product-info-mobile">
+                            <h5 class="product-name">D9 Blue Chair</h5>
+                            <div class="product-price">
+                                <p>$125</p>
+                                <s>$150</s>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-ref="mixitup-target">
+                    <div class="product-item">
+                        <!-- filter image -->
+                        <img class="img-fluid w-100" src="images/products/product-5.jpg" alt="product-img">
+                        <div class="product-overlay">
+                            <div class="product-info">
+                                <!-- filter image content -->
+                                <h4 class="product-name">D9 Blue Chair</h4>
+                                <h4 class="new-price">$125</h4>
+                                <s class="old-price">$150</s>
+                            </div>
+                        </div>
+                        <div class="product-info-mobile">
+                            <h5 class="product-name">D9 Blue Chair</h5>
+                            <div class="product-price">
+                                <p>$125</p>
+                                <s>$150</s>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 on-sale" data-ref="mixitup-target">
+                    <div class="product-item">
+                        <!-- filter image -->
+                        <img class="img-fluid w-100" src="images/products/product-6.jpg" alt="product-img">
+                        <div class="product-overlay">
+                            <div class="product-info">
+                                <!-- filter image content -->
+                                <h4 class="product-name">D9 Blue Chair</h4>
+                                <h4 class="new-price">$125</h4>
+                                <s class="old-price">$150</s>
+                            </div>
+                        </div>
+                        <div class="product-info-mobile">
+                            <h5 class="product-name">D9 Blue Chair</h5>
+                            <div class="product-price">
+                                <p>$125</p>
+                                <s>$150</s>
+                            </div>
+                        </div>
+                        <div class="tag on-sale-tag">on sale</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-ref="mixitup-target">
+                    <div class="product-item">
+                        <!-- filter image -->
+                        <img class="img-fluid w-100" src="images/products/product-7.jpg" alt="product-img">
+                        <div class="product-overlay">
+                            <div class="product-info">
+                                <!-- filter image content -->
+                                <h4 class="product-name">D9 Blue Chair</h4>
+                                <h4 class="new-price">$125</h4>
+                                <s class="old-price">$150</s>
+                            </div>
+                        </div>
+                        <div class="product-info-mobile">
+                            <h5 class="product-name">D9 Blue Chair</h5>
+                            <div class="product-price">
+                                <p>$125</p>
+                                <s>$150</s>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 top-rated" data-ref="mixitup-target">
+                    <div class="product-item">
+                        <!-- filter image -->
+                        <img class="img-fluid w-100" src="images/products/product-8.jpg" alt="product-img">
+                        <div class="product-overlay">
+                            <div class="product-info">
+                                <!-- filter image content -->
+                                <h4 class="product-name">D9 Blue Chair</h4>
+                                <h4 class="new-price">$125</h4>
+                                <s class="old-price">$150</s>
+                            </div>
+                        </div>
+                        <div class="product-info-mobile">
+                            <h5 class="product-name">D9 Blue Chair</h5>
+                            <div class="product-price">
+                                <p>$125</p>
+                                <s>$150</s>
+                            </div>
+                        </div>
+                        <div class="tag discount-tag">-30%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="banner" style="background-image: url(images/background/banner.jpg);">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>D9 White wooden chair</h1>
+                <a href="#" class="btn btn-primary"  data-toggle="modal" data-target="#subscribe">BUY NOW</a>
+                <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscribe">
+    Launch demo modal
+  </button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="subscribe" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body row">
+                <div class="col-lg-6 col-12">
+                    <div class="modal-image">
+                        <img class="img-fluid w-100" src="images/modal/Newsletter-popup.jpg" alt="Modal-image">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="modal-form">
+                        <h3>GET OUR EMAIL LETTER</h3>
+                        <p>Subscribe to the Eren mailing list to receive updates on new arrivals, special offers and other discount
+                            information.
+                        </p>
+                        <form action="#" class="row">
+                            <div class="col-12">
+                                <input type="email" id="email" class="form-control" placeholder="Enter Email Address">
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" value="send" class="btn btn-sm btn-secondary">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="feature section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-title">THEME FEATURES</h2>
+                </div>
+                <div class="col-sm-6">
+                    <div class="feature-item">
+                        <i class="ti-palette"></i>
+                        <h6>CREATIVE DESIGN</h6>
+                        <p>Kindgom is a creative theme, focused on unique design elements, smooth animations and clean layouts.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="feature-item">
+                        <i class="ti-layout"></i>
+                        <h6>RESPONSIVE LAYOUT</h6>
+                        <p>Kindgom is a creative theme, focused on unique design elements, smooth animations and clean layouts.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="feature-item">
+                        <i class="ti-settings"></i>
+                        <h6>HIGHLY CUSTOMIZABLE</h6>
+                        <p>Kindgom is a creative theme, focused on unique design elements, smooth animations and clean layouts.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="feature-item">
+                        <i class="ti-loop"></i>
+                        <h6>SEO OPTIMIZED</h6>
+                        <p>Kindgom is a creative theme, focused on unique design elements, smooth animations and clean layouts.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="feature-item">
+                        <i class="ti-agenda"></i>
+                        <h6>GREAT DOCUMENTATION</h6>
+                        <p>Kindgom is a creative theme, focused on unique design elements, smooth animations and clean layouts.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="feature-item">
+                        <i class="ti-sharethis"></i>
+                        <h6>SOCIAL SHARING</h6>
+                        <p>Kindgom is a creative theme, focused on unique design elements, smooth animations and clean layouts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="featured-product">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 px-0">
+                    <img src="images/featured-product/featured-product-1.jpg" alt="product-image" class="img-fluid w-100">
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <div class="featured-product-content">
+                        <h2 class="featured-product-title title-1">D9 Wooden Blue chair</h2>
+                        <style>
+                            .title-1::before {
+                                content: '1'
+                            }
+                        </style>
+                        <p>The designers worked with a stainless steel netting of two by two centimetre squares to create the daybeds,
+                            which they describe as looking like a curled up mattress or a sheet of paper.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 align-self-center order-lg-1 order-2">
+                    <div class="featured-product-content">
+                        <h2 class="featured-product-title title-2">D9 RED chair</h2>
+                        <style>
+                            .title-2::before {
+                                content: '2'
+                            }
+                        </style>
+                        <p>The designers worked with a stainless steel netting of two by two centimetre squares to create the daybeds,
+                            which they describe as looking like a curled up mattress or a sheet of paper.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 px-0 order-lg-2 order-1">
+                    <img src="images/featured-product/featured-product-2.jpg" alt="product-image" class="img-fluid w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="gallary section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-6 p-0">
+                    <div class="gallary-item">
+                        <img class="img-fluid w-100" src="images/gallary/item-1.jpg" alt="product-image">
+                        <a href="images/gallary/item-1.jpg" class="image-zoom-gallary">
+                            <div class="gallary-item-overlay">
+                                <h6>view</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 p-0">
+                    <div class="gallary-item">
+                        <img class="img-fluid w-100" src="images/gallary/item-2.jpg" alt="product-image">
+                        <a href="images/gallary/item-2.jpg" class="image-zoom-gallary">
+                            <div class="gallary-item-overlay">
+                                <h6>view</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 p-0">
+                    <div class="gallary-item">
+                        <img class="img-fluid w-100" src="images/gallary/item-3.jpg" alt="product-image">
+                        <a href="images/gallary/item-3.jpg" class="image-zoom-gallary">
+                            <div class="gallary-item-overlay">
+                                <h6>view</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 p-0">
+                    <div class="gallary-item">
+                        <img class="img-fluid w-100" src="images/gallary/item-4.jpg" alt="product-image">
+                        <a href="images/gallary/item-4.jpg" class="image-zoom-gallary">
+                            <div class="gallary-item-overlay">
+                                <h6>view</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="product-single">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid w-100" src="images/products/product-single.jpg" alt="product-image">
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <div class="product-single-content">
+                        <h2>D9 White Wooden chair</h2>
+                        <h3>$175</h3>
+                        <p>The designers worked with a stainless steel netting of two by two centimetre squares to create the daybeds,
+                            which they describe as looking like a curled up mattress or a sheet of paper.</p>
+                        <ul class="list-inline color-swatch">
+                            <li class="list-inline-item active" style="background-color: gray;"></li>
+                            <li class="list-inline-item" style="background-color: red;"></li>
+                            <li class="list-inline-item" style="background-color: green;"></li>
+                            <li class="list-inline-item" style="background-color: blue;"></li>
+                            <li class="list-inline-item" style="background-color: skyblue;"></li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary">add to cart</a>
+                        <ul class="list-inline social-link">
+                            <li class="list-inline-item facebook">
+                                <a href="#">
+                                    <i class="ti-facebook"></i>Share</a>
+                            </li>
+                            <li class="list-inline-item twitter">
+                                <a href="#">
+                                    <i class="ti-twitter-alt"></i>Tweet</a>
+                            </li>
+                            <li class="list-inline-item pinterest">
+                                <a href="#">
+                                    <i class="ti-pinterest"></i>Pin It</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="testimonial section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-title">testimonials</h2>
+                    <p class="section-title-content">Lorem ipsum dolar sit amet simply dummy text for
+                        <br> web and print media.</p>
+                </div>
+            </div>
+            <div class="row testimonial-slider">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="testimonial-item">
+                        <div class="client-image">
+                            <img src="images/clients/client-1.jpg" alt="client-image">
+                        </div>
+                        <h5>Great Design</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim</p>
+                        <h6>- Ken Motrin</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="testimonial-item">
+                        <div class="client-image">
+                            <img src="images/clients/client-2.jpg" alt="client-image">
+                        </div>
+                        <h5>Great Support</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim</p>
+                        <h6>- Alex Son</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="testimonial-item">
+                        <div class="client-image">
+                            <img src="images/clients/client-3.jpg" alt="client-image">
+                        </div>
+                        <h5>great Code</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim</p>
+                        <h6>- Richard Martin</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="testimonial-item">
+                        <div class="client-image">
+                            <img src="images/clients/client-1.jpg" alt="client-image">
+                        </div>
+                        <h5>Great Design</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim</p>
+                        <h6>- Ken Motrin</h6>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="testimonial-item">
+                        <div class="client-image">
+                            <img src="images/clients/client-2.jpg" alt="client-image">
+                        </div>
+                        <h5>Great Code</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim</p>
+                        <h6>- Alex Son</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="collection-more section">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-title">More from the collections</h2>
+                    <p class="section-title-content">Lorem ipsum dolar sit amet simply dummy text for
+                        <br> web and print media.</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="collection-more-item">
+                        <div class="item-image">
+                            <img class="img-fluid w-100" src="images/collection/more-item-1.jpg" alt="product-image">
+                            <a href="images/collection/more-item-1.jpg" class="image-zoom">
+                                <div class="item-image-overlay">
+                                    <h6>Quick View</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-info">
+                            <div class="item-info-content">
+                                <a href="#">
+                                    <h5>D9 Pink Chair</h5>
+                                </a>
+                                <div class="item-info-content-price">
+                                    <p>$125</p>
+                                    <s>$150</s>
+                                </div>
+                            </div>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star"></i>
+                                </li>
+                                <li class="list-inline-item">(1 Review)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="collection-more-item">
+                        <div class="item-image">
+                            <img class="img-fluid w-100" src="images/collection/more-item-2.jpg" alt="product-image">
+                            <a href="images/collection/more-item-2.jpg" class="image-zoom">
+                                <div class="item-image-overlay">
+                                    <h6>Quick View</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-info">
+                            <div class="item-info-content">
+                                <a href="#">
+                                    <h5>D9 office Chair</h5>
+                                </a>
+                                <div class="item-info-content-price">
+                                    <p>$125</p>
+                                    <s>$150</s>
+                                </div>
+                            </div>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star"></i>
+                                </li>
+                                <li class="list-inline-item">(5 Review)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="collection-more-item">
+                        <div class="item-image">
+                            <img class="img-fluid w-100" src="images/collection/more-item-3.jpg" alt="product-image">
+                            <a href="images/collection/more-item-3.jpg" class="image-zoom">
+                                <div class="item-image-overlay">
+                                    <h6>Quick View</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-info">
+                            <div class="item-info-content">
+                                <a href="#">
+                                    <h5>D9 Blue Chair</h5>
+                                </a>
+                                <div class="item-info-content-price">
+                                    <p>$125</p>
+                                    <s>$150</s>
+                                </div>
+                            </div>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star"></i>
+                                </li>
+                                <li class="list-inline-item">(1 Review)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="collection-more-item">
+                        <div class="item-image">
+                            <img class="img-fluid w-100" src="images/collection/more-item-4.jpg" alt="product-image">
+                            <a href="images/collection/more-item-4.jpg" class="image-zoom">
+                                <div class="item-image-overlay">
+                                    <h6>Quick View</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-info">
+                            <div class="item-info-content">
+                                <a href="#">
+                                    <h5>D9 Wooden Chair</h5>
+                                </a>
+                                <div class="item-info-content-price">
+                                    <p>$125</p>
+                                    <s>$150</s>
+                                </div>
+                            </div>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star gold"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="ti-star"></i>
+                                </li>
+                                <li class="list-inline-item">(10 Review)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="blog">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-title">from the Blog</h2>
+                    <p class="section-title-content">Lorem ipsum dolar sit amet simply dummy text for
+                        <br> web and print media.</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="blog-item">
+                        <img class="img-fluid w-100" src="images/blog/blog-1.jpg" alt="blog-image">
+                        <a href="#">
+                            <h5>D9 Pink Chair 0056</h5>
+                        </a>
+                        <p class="blog-date">October 24, 2016</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="blog-item">
+                        <img class="img-fluid w-100" src="images/blog/blog-2.jpg" alt="blog-image">
+                        <a href="#">
+                            <h5>D9 office Chair</h5>
+                        </a>
+                        <p class="blog-date">October 24, 2016</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="blog-item">
+                        <img class="img-fluid w-100" src="images/blog/blog-3.jpg" alt="blog-image">
+                        <a href="#">
+                            <h5>D9 Blue office Chair</h5>
+                        </a>
+                        <p class="blog-date">October 24, 2016</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="blog-item">
+                        <img class="img-fluid w-100" src="images/blog/blog-4.jpg" alt="blog-image">
+                        <a href="#">
+                            <h5>D9 wooden Chair</h5>
+                        </a>
+                        <p class="blog-date">October 24, 2016</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <a href="#" class="btn btn-primary">view all</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="brand section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-title">Brands</h2>
+                    <p class="section-title-content">
+                        Lorem ipsum dolar sit amet simply dummy text for
+                        <br> web and print media.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="brand-item">
+                        <img class="img-fluid" src="images/brands/brand-1.png" alt="brand-logo">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="brand-item">
+                        <img class="img-fluid" src="images/brands/brand-2.png" alt="brand-logo">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="brand-item">
+                        <img class="img-fluid" src="images/brands/brand-3.png" alt="brand-logo">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="brand-item">
+                        <img class="img-fluid" src="images/brands/brand-4.png" alt="brand-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="map">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 px-0">
+                    <div id="map" class="map-canvas"></div>
+                    <div class="map-overlay">
+                        <h6>Our store</h6>
+                        <address>
+                            <p>123 Fake St.
+                                <br>Toronto, Canada</p>
+                            <p>Mon - Fri, 10am - 9pm
+                                <br>Saturday, 11am - 9pm
+                                <br>Sunday, 11am - 5pm</p>
+                        </address>
+                        <a href="https://maps.google.com?daddr=80 Spadina Ave, Toronto" class="btn btn-direction"> get direction</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 order-3 order-md-1">
+                    <p>&copy; 2022, Designed And Developed by <a rel="nofollow" href="https://furioustheme.com/" target="blank">Furioustheme</a></p>
+                </div>
+                <div class="col-lg-4 col-md-4 order-2">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="ti-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="ti-twitter-alt"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="ti-pinterest"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 order-1 order-md-3">
+                    <ul class="list-inline float-right">
+                        <li class="list-inline-item">
+                            <a href="#">Search</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">About us</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">log in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- mixitup filter -->
+<script src="plugins/mixitup/mixitup.min.js"></script>
+<!-- magnific popup -->
+<script src="plugins/Magnific-Popup-master/jquery.magnific-popup.min.js"></script>
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
+<script  src="plugins/google-map/gmap.js"></script>
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
